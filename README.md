@@ -3,13 +3,21 @@
 This project is a Machine Learning-based system designed to help users make informed decisions about drug prescriptions by analyzing customer reviews. We leverage popular Python libraries like Pandas, Matplotlib, Seaborn, and NumPy for data processing and visualization. The project's main objectives include importing and preprocessing the dataset, summarizing the data, identifying hidden patterns, sentiment analysis of customer reviews, assessing drug effectiveness, and analyzing medical conditions associated with different drugs. The primary goal is to determine the most useful and least useful drugs for each medical condition based on user feedback.
 
 ### Table of Contents: 
-Dataset Import<br>
-Data Summary<br>
-Pattern Discovery<br>
-Review Cleaning<br>
-Review Sentiment Analysis<br>
-Effectiveness and Usefullness Calculation<br>
-Medical Condition Analysis<br>
+- Dataset Import<br>
+- Data Summary<br>
+- Pattern Discovery<br>
+- Review Cleaning<br>
+- Review Sentiment Analysis<br>
+- Effectiveness and Usefullness Calculation<br>
+- Medical Condition Analysis<br>
+
+### Dataset:
+The Drug Review Dataset, sourced from the UCI Machine Learning Repository, offers valuable insights into patient experiences with specific medications, including associated medical conditions and a 10-star rating system reflecting overall patient satisfaction. This dataset was compiled through web scraping of online pharmaceutical review platforms, resulting in a dataset with dimensions of (161,297, 7), encompassing 7 distinct features and 161,297 data entries.
+
+Key features include 'drugName,' denoting the drug's name, 'condition,' indicating the patient's medical ailment, 'review,' serving as the patient's detailed feedback, 'rating,' representing the patient's 10-star assessment of the drug, 'date,' specifying the entry date, and 'usefulCount,' quantifying the number of users who deemed the review useful.
+
+The dataset can be downloaded from kaggle:
+- https://www.kaggle.com/code/harshjain123/drugs-review-sentiment
 
 ### Acknowledgments
 Project based on AI course on Udemy. 
